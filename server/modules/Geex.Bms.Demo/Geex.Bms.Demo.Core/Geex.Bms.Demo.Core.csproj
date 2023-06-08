@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Geex.Common.Settings" Version="3.0.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Geex.Bms.ConnectedServices\Geex.Bms.ConnectedServices.csproj" />
+  </ItemGroup>
+
+</Project>
